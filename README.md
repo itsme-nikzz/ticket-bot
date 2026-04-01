@@ -59,7 +59,7 @@ Global error handling to prevent crashes.
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/nexora-support-bot.git
+git clone https://github.com/itsme-nikzz/ticket-bot.git
 
 
 2. Install dependencies:
@@ -69,6 +69,7 @@ npm install
 
 3. Configure your config.json with your bot token, roles, channels, and webhook:
 
+```
 {
   "token": "YOUR_BOT_TOKEN",
   "clientId": "YOUR_CLIENT_ID",
@@ -78,7 +79,7 @@ npm install
   "ticketCategoryId": "CATEGORY_ID",
   "logWebhookUrl": "WEBHOOK_URL"
 }
-
+```
 
 4. Run the bot:
 
